@@ -1,0 +1,163 @@
+{
+    "interviewCategories": [
+      {
+        "category": "Experiencia Laboral",
+        "questions": [
+          {
+            "text": "¿En qué compañías has trabajado anteriormente?",
+            "note": "Suma si ha trabajado en compañías grandes. Pregunta diseñada para evaluar experiencia previa y contexto laboral."
+          },
+          {
+            "text": "¿Puedes describir tu experiencia en esas compañías?",
+            "note": "Permite profundizar en los roles y responsabilidades desempeñados."
+          },
+          {
+            "text": "¿Qué tecnologías utilizaste en tus proyectos anteriores?",
+            "note": "Busca entender el dominio técnico del candidato y sus herramientas comunes."
+          },
+          {
+            "text": "¿Has trabajado en equipos distribuidos? ¿Cómo fue esa experiencia?",
+            "note": "Explora habilidades de colaboración y comunicación en equipos remotos."
+          },
+          {
+            "text": "¿Tienes experiencia en liderazgo? ¿Puedes dar ejemplos?",
+            "note": "Busca identificar capacidades de gestión y liderazgo en proyectos."
+          }
+        ]
+      },
+      {
+        "category": "Composición de Equipos y Proyectos",
+        "questions": [
+          {
+            "text": "¿Cuál era la composición de los equipos en los que trabajaste?",
+            "note": "Proporciona contexto sobre la dinámica de trabajo en equipo."
+          },
+          {
+            "text": "¿Cuál era el tamaño de los proyectos en los que participaste? Cantidad de equipos, personas, cantidad de servicios. Cuantos usuarios tiene la app.",
+            "note": "Permite evaluar la complejidad y escala de los proyectos."
+          }
+        ]
+      },
+      {
+        "category": "Evaluación de Habilidades",
+        "questions": [
+          {
+            "text": "Te voy a dar un problema para que lo resuelvas iterativamente y ver cómo piensas.",
+            "note": "Solo para candidatos junior. Diseñado para evaluar habilidades de resolución de problemas y pensamiento lógico."
+          }
+        ]
+      },
+      {
+        "category": "Microservicios",
+        "questions": [
+          {
+            "text": "¿Qué son los microservicios?",
+            "note": "Introduce conocimientos generales sobre arquitectura de software."
+          },
+          {
+            "text": "¿Cuáles son las ventajas y desventajas de los microservicios?",
+            "note": "Busca evaluar la comprensión de los pros y contras de esta arquitectura."
+          },
+          {
+            "text": "¿Cómo evitas la repetición de código con los microservicios?",
+            "note": "Explora tácticas de diseño para evitar redundancia en sistemas distribuidos."
+          }
+        ]
+      },
+      {
+        "category": "Comunicación entre APIs",
+        "questions": [
+          {
+            "text": "¿Qué experiencia tienes con App Clients para la comunicación entre APIs, como Nswag?",
+            "note": "Evalúa experiencia con herramientas de integración y desarrollo."
+          }
+        ]
+      },
+      {
+        "category": "Mensajería y Colas",
+        "questions": [
+          {
+            "text": "¿Qué sabes sobre mensajería, colas y service bus?",
+            "note": "Explora conocimientos en sistemas de mensajería y su utilidad."
+          },
+          {
+            "text": "¿Para qué sirven?",
+            "note": "Refuerza la comprensión del uso práctico de estas herramientas."
+          },
+          {
+            "text": "¿Qué sucede cuando un mensaje no puede ser tomado/enviado o es erróneo?",
+            "note": "Evalúa habilidades para manejar errores en sistemas distribuidos. Buscamos que tenga conocimiento de Dead letter queue."
+          }
+        ]
+      },
+      {
+        "category": "Funciones y Triggers",
+        "questions": [
+          {
+            "text": "¿Por qué usamos funciones?",
+            "note": "Introduce el concepto y utilidad de funciones en sistemas. Son eficientes en cuanto al costo y se pueden utilizar porciones de codigo pequenas."
+          },
+          {
+            "text": "¿Qué son los triggers y cómo los utilizas?",
+            "note": "Explora conocimiento técnico específico sobre triggers. Scheduled, http, evento."
+          },
+          {
+            "text": "¿Has utilizado alguna vez las funciones de Azure? ¿Puedes explicar cómo se escalan y actualizan?",
+            "note": "Evalúa experiencia con herramientas de Azure y conceptos de escalabilidad. Scale in (procesamiento y memoria) and out (cantidad de instancias)."
+          }
+        ]
+      },
+      {
+        "category": "Swagger/Postman",
+        "questions": [
+          {
+            "text": "¿Qué es Swagger/Postman? ¿Para qué se utilizan?",
+            "note": "Busca comprobar el uso de herramientas para documentación y prueba de APIs."
+          }
+        ]
+      },
+      {
+        "category": "Autorización",
+        "questions": [
+          {
+            "text": "¿Qué sabes sobre JWT? ¿Cuáles son sus partes y cómo se usa para probar una API?",
+            "note": "Evalúa conocimientos sobre seguridad y manejo de tokens."
+          },
+          {
+            "text": "¿Qué son los claims en un token?",
+            "note": "Busca profundizar en el manejo específico de claims."
+          },
+          {
+            "text": "¿Cómo es el flujo de autorización Oauth?",
+            "note": "Explora conocimiento de procesos de autorización modernos."
+          }
+        ]
+      },
+      {
+        "category": "Base de Datos",
+        "questions": [
+          {
+            "text": "¿Cómo optimizas el performance de las queries?",
+            "note": "Evalúa habilidades para mejorar el rendimiento de bases de datos."
+          },
+          {
+            "text": "¿Qué sabes sobre profiler y execution plan?",
+            "note": "Explora conocimiento avanzado sobre análisis de rendimiento."
+          },
+          {
+            "text": "¿Qué tipos de índices conoces y cuándo utilizas procedures?",
+            "note": "Busca conocer prácticas de optimización en bases de datos."
+          },
+          {
+            "text": "¿Qué problemas has encontrado con Entity Framework (EF)?",
+            "note": "Evalúa experiencia práctica y solución de problemas con EF."
+          },
+          {
+            "text": "¿Has utilizado herramientas como Redgate?",
+            "note": "Que sepa esto es opcional. Permite evaluar experiencia con herramientas especializadas."
+          }
+        ]
+      }
+    ]
+  }
+  
