@@ -17,3 +17,6 @@ When the interviewer completes the interview can ask for the report to send to H
 The Agent will normalize the notes, search which question has a response and provide a question/answer list.
 
 With that question/answer list, the agent will build a report to send to HR/Recruiters/Managers.
+
+Tecnical features:
+This should have an API and a console app.
