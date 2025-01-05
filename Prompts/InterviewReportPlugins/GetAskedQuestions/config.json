@@ -1,0 +1,23 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Identify which question match with an interviewer note from notes.",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 800,
+            "temperature": 0
+        }
+    },
+    "input_variables": [
+        {
+            "name": "questions",
+            "description": "Questions to analize the interviewer notes",
+            "required": true
+        },
+        {
+            "name": "notes",
+            "description": "Notes that the interviewer took at the moment of the interview",
+            "required": true
+        }
+    ]
+}

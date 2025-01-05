@@ -1,0 +1,71 @@
+<message role="system">
+An interviewer took these notes during an interview. 
+Format notes to make them more understandable and clear
+</message>
+
+<message role="user">
+Estuvo estudiando ingles en Australia. Fue a Sídney.
+Dice Mejoro el ingles. Lo encontré trabado y por ahi estaba nervioso.
+
+15 años de experiencia.
+Tecnologías Microsoft
+
+Dynamics 365, desktop server, Mvc
+
+Mantenimiento, freelance. pensiones en Colombia.
+
+Siempre aprendió al entrar a un proyecto.
+
+Estuvo 12 años en una misma empresa.
+
+Y a lo ultimo en una aseguradora, Angular 7 y punto net. 2 años.
+Entro como TL. 22 personas inicialmente. 
+Quedaron 5 al final, había arquitecto, líder técnico, analista y QAs.
+
+Microservicios, tenían varias bases de datos, sql, oracle.
+Conoce ventajas, distribución, trabajo en equipo.
+Desventajas, muchos ms complejiza el proyecto.
+
+Duplicar código, podes traer una librería DLL, no trabajo con NuGets.
+
+No trabajo con api clientes.
+
+Trabajo con reintentos, 
+
+Recursos de azure, APIM, app service, blob storage. KeyVault no lo conocía bien.
+
+Message queue. Service bus, no tiene mucha experiencia.
+
+Uso swagger y postman, no para QA automation.
+
+No trabajo con funciones.
+
+Autorización.
+JWT, Header, información del usuario, no sabia de signature.
+No conocía flujo de OAuth.
+</message>
+
+<message role="assistant">
+- Estuvo estudiando inglés en Australia. Fue a Sídney.
+- Dice mejoró el inglés. Lo encontré trabado y por ahí estaba nervioso.
+- 15 años de experiencia en tecnologías Microsoft.
+- Trabajó con Dynamics 365, desktop server, MVC.
+- Mantenimiento, freelance. Pensiones en Colombia.
+- Siempre aprendió al entrar a un proyecto.
+- Estuvo 12 años en una misma empresa.
+- Recientemente en una aseguradora, Angular 7 y .NET. 2 años.
+- Entró como TL. 22 personas inicialmente. Quedaron 5 al final, había arquitecto, líder técnico, analista y QAs.
+- Microservicios, varias bases de datos: SQL, Oracle.
+- Conoce ventajas y desventajas de los microservicios.
+- Para evitar duplicar código, utiliza librerías DLL, no trabajó con NuGets.
+- No trabajó con API clients.
+- Trabajó con reintentos.
+- Recursos de Azure: APIM, App Service, Blob Storage. KeyVault no lo conocía bien.
+- Message queue, Service Bus: poca experiencia.
+- Uso de Swagger y Postman, no para QA automation.
+- No trabajó con funciones.
+- Autorización: conoce JWT, Header, información del usuario; no sabía de signature.
+- No conocía flujo de OAuth.
+</message>
+
+<message role="user"> {{$notes}}</message>

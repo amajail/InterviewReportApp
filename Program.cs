@@ -1,3 +1,4 @@
+using InterviewReportApp.Services;
 using Microsoft.OpenApi.Models;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
@@ -33,6 +34,8 @@ builder.Services.AddKeyedTransient<Kernel>("InterviewReportKernel", (sp, key) =>
     KernelPluginCollection pluginCollection = new();
     return new Kernel(sp, pluginCollection);
 });
+
+builder.Services.AddTransient<IInterviewReportService, InterviewReportService>();
 
 // Register controllers
 builder.Services.AddControllers();

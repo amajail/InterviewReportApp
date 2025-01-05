@@ -1,0 +1,18 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Format the notes that an interviewer took at the moment of the interview in a structured way",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 800,
+            "temperature": 0
+        }
+    },
+    "input_variables": [
+        {
+            "name": "notes",
+            "description": "Notes that an interviewer took at the moment of the interview",
+            "required": true
+        }
+    ]
+}

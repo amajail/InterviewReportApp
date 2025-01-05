@@ -1,0 +1,91 @@
+<message role="system">
+First format the interviewer notes in a structured way. Then, Identify which question match to the interviewer notes.
+Maybe some questions were skipped.
+Retrieve a question / response list.  
+</message>
+
+For example: 
+
+<message role="user">
+From this list of questions 
+"
+{
+    "interviewCategories": [
+      {
+        "category": "Experiencia Laboral",
+        "questions": [
+          {
+            "text": "¿En qué compañías has trabajado anteriormente?",
+            "note": "Suma si ha trabajado en compañías grandes. Pregunta diseñada para evaluar experiencia previa y contexto laboral."
+          },
+          {
+            "text": "¿Puedes describir tu experiencia en esas compañías?",
+            "note": "Permite profundizar en los roles y responsabilidades desempeñados."
+          },
+          {
+            "text": "¿Qué tecnologías utilizaste en tus proyectos anteriores?",
+            "note": "Busca entender el dominio técnico del candidato y sus herramientas comunes."
+          },
+          {
+            "text": "¿Has trabajado en equipos distribuidos? ¿Cómo fue esa experiencia?",
+            "note": "Explora habilidades de colaboración y comunicación en equipos remotos."
+          },
+          {
+            "text": "¿Tienes experiencia en liderazgo? ¿Puedes dar ejemplos?",
+            "note": "Busca identificar capacidades de gestión y liderazgo en proyectos."
+          }
+        ]
+      },
+      {
+        "category": "Composición de Equipos y Proyectos",
+        "questions": [
+          {
+            "text": "¿Cuál era la composición de los equipos en los que trabajaste?",
+            "note": "Proporciona contexto sobre la dinámica de trabajo en equipo."
+          },
+          {
+            "text": "¿Cuál era el tamaño de los proyectos en los que participaste? Cantidad de equipos, personas, cantidad de servicios. Cuantos usuarios tiene la app.",
+            "note": "Permite evaluar la complejidad y escala de los proyectos."
+          }
+        ]
+      }]}
+"
+
+An interviewer took this notes:
+"
+- Estuvo estudiando inglés en Australia. Fue a Sídney.
+- Dice mejoró el inglés. Lo encontré trabado y por ahí estaba nervioso.
+- 15 años de experiencia en tecnologías Microsoft.
+- Trabajó con Dynamics 365, desktop server, MVC.
+- Mantenimiento, freelance. Pensiones en Colombia.
+- Siempre aprendió al entrar a un proyecto.
+- Estuvo 12 años en una misma empresa.
+- Recientemente en una aseguradora, Angular 7 y .NET. 2 años.
+- Entró como TL. 22 personas inicialmente. Quedaron 5 al final, había arquitecto, líder técnico, analista y QAs.
+- Microservicios, varias bases de datos: SQL, Oracle.
+- Conoce ventajas y desventajas de los microservicios.
+- Para evitar duplicar código, utiliza librerías DLL, no trabajó con NuGets.
+- No trabajó con API clients.
+- Trabajó con reintentos.
+- Recursos de Azure: APIM, App Service, Blob Storage. KeyVault no lo conocía bien.
+- Message queue, Service Bus: poca experiencia.
+- Uso de Swagger y Postman, no para QA automation.
+- No trabajó con funciones.
+- Autorización: conoce JWT, Header, información del usuario; no sabía de signature.
+- No conocía flujo de OAuth.
+"
+</message>
+<message role="assistant">
+Experiencia Laboral
+Q: ¿Qué tecnologías utilizaste en tus proyectos anteriores?
+A: - Tuvo 15 años de experiencia en tecnologías Microsoft.  Trabajó con Dynamics 365, desktop server, MVC.
+
+Q: ¿En qué compañías has trabajado anteriormente?
+A: Mantenimiento, freelance. Pensiones en Colombia. Estuvo 12 años en una misma empresa. Recientemente en una aseguradora, Angular 7 y .NET. 2 años.
+
+Composición de Equipos y Proyectos
+Q: ¿Cuál era la composición de los equipos en los que trabajaste?
+A: Entró con rol de TL. El equipo tenia 22 personas inicialmente. Quedaron 5 al final, había arquitecto, líder técnico, analista y QAs.
+</message>
+
+<message role="user">{{$questions}} {{InterviewReportPlugins.GetFormattedNotes}}</message>
