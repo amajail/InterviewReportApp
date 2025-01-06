@@ -1,22 +1,36 @@
-In the future this should be an AI Agent to assist taking interviews.
 
-You provide a Job Description.
-The Agent will categorize the skills required in the JD.
 
-With those categories the agent will suggest questions that you can ask during the interview.
-The interviewer can ask all questions or not.
+### Features List for the AI Interview Assistant App:
 
-The agent also will provide suggested responses to those questios.
+#### Core Features:
+1. **Job Description Parsing**  
+   - Input: JD provided by the user.  
+   - Output: Categorized skills based on the JD.
 
-The interviewer during the interview will send the responses to the Agent.
+2. **Question Suggestion**  
+   - Generate interview questions based on the identified skill categories.
 
-The Agent will be saving those responses as a notes document.
+3. **Suggested Responses**  
+   - Provide sample answers to each suggested question for reference.
 
-When the interviewer completes the interview can ask for the report to send to HR.
+4. **Interview Notes Management**  
+   - Allow the interviewer to input candidate responses in real time.  
+   - Automatically save notes.
 
-The Agent will normalize the notes, search which question has a response and provide a question/answer list.
+5. **Report Generation**  
+   - Normalize the interview notes.  
+   - Identify answered and unanswered questions.  
+   - Generate a structured Q&A list.  
+   - Create a polished report for HR/Recruiters/Managers.
 
-With that question/answer list, the agent will build a report to send to HR/Recruiters/Managers.
+#### Technical Features:
+1. **API Development**  
+   - Expose endpoints for JD input, question generation, note-taking, and report generation.
 
-Tecnical features:
-This should have an API and a console app.
+2. **Console Application**  
+   - CLI for users to interact with the AI Agent, input JDs, manage interviews, and request reports.
+
+3. **Extensibility**  
+   - Modular design for future upgrades (e.g., integrating video/audio interviews, sentiment analysis, etc.).
+
+Would you like help with the architecture or a sample project structure?
