@@ -1,5 +1,7 @@
 using InterviewReportApp.Core.Application.Services;
 using InterviewReportApp.Core.Application.Services.Interfaces;
+using InterviewReportApp.Infrastructure;
+using InterviewReportApp.Infrastructure.Interfaces;
 using Microsoft.OpenApi.Models;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
@@ -37,6 +39,7 @@ builder.Services.AddKeyedTransient<Kernel>("InterviewReportKernel", (sp, key) =>
 });
 
 builder.Services.AddTransient<IInterviewReportService, InterviewReportService>();
+builder.Services.AddTransient<IQuestionRepository, QuestionRepository>();
 
 // Register controllers
 builder.Services.AddControllers();
