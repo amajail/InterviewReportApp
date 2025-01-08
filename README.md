@@ -1,6 +1,6 @@
-
-
 ### Features List for the AI Interview Assistant App:
+
+The user is planning to develop an application with an AI agent to assist in conducting technical interviews. The application will allow users to provide a job description (JD), categorize the required skills, suggest interview questions, record responses, and generate a detailed report to send to Human Resources. The application will include an API and a console application.
 
 #### Core Features:
 1. **Job Description Parsing**  
