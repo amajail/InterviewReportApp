@@ -26,7 +26,7 @@ namespace InterviewReportApp.Core.Application.Services
 
             var response = new InterviewRouterResponse();
 
-            _logger.LogInformation($"{intent} intent detected",intent);
+            _logger.LogInformation($"{intent} intent detected.",intent);
 
             switch (intent)
             {
