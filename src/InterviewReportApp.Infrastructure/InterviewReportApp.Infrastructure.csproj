@@ -12,7 +12,12 @@
 
 
   <ItemGroup>
-    <None Update="questions-net.json">
+    <None Update="Files/questions/questions-net.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+    <ItemGroup>
+    <None Update="Files/notes/notes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

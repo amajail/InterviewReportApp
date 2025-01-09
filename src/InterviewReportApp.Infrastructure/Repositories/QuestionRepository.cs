@@ -9,7 +9,7 @@ public class QuestionRepository : IQuestionRepository
 
     public InterviewQuestionsRoot GetAllQuestions()
     {
-        return LoadQuestionsFromJson("questions-net.json");
+        return LoadQuestionsFromJson("Files/questions/questions-net.json");
     }
     // Method to load questions from a JSON file
     private InterviewQuestionsRoot LoadQuestionsFromJson(string filePath)
@@ -20,6 +20,5 @@ public class QuestionRepository : IQuestionRepository
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         return JsonSerializer.Deserialize<InterviewQuestionsRoot>(json, options)!;
     }
-
 }
 
