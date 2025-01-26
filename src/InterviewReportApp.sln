@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewReportApp.Console"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewReportApp.Infrastructure", "InterviewReportApp.Infrastructure\InterviewReportApp.Infrastructure.csproj", "{6B065039-F06D-4EBC-9068-027BEAACB192}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewReportApp.ConsoleAgent", "InterviewReportApp.ConsoleAgent\InterviewReportApp.ConsoleAgent.csproj", "{E3551E5C-6F41-4767-B36D-D6AB422819CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{6B065039-F06D-4EBC-9068-027BEAACB192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B065039-F06D-4EBC-9068-027BEAACB192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B065039-F06D-4EBC-9068-027BEAACB192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3551E5C-6F41-4767-B36D-D6AB422819CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3551E5C-6F41-4767-B36D-D6AB422819CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3551E5C-6F41-4767-B36D-D6AB422819CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3551E5C-6F41-4767-B36D-D6AB422819CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC8B6D02-3347-4B7A-B706-C258DA774F0A} = {ECA5FE48-BF7F-48AA-9270-23627E356C44}

@@ -36,6 +36,12 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/src/InterviewReportApp.Console/InterviewReportApp.Console.csproj"
-        }
+        },
+        {
+            "name": "C#: InterviewReportApp Console Agent Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/InterviewReportApp.ConsoleAgent/InterviewReportApp.ConsoleAgent.csproj"
+        }        
     ]
 }

@@ -1,7 +1,7 @@
 {
     "interviewCategories": [
       {
-        "category": "Experiencia Laboral",
+        "categoryName": "Experiencia Laboral",
         "questions": [
           {
             "text": "¿En qué compañías has trabajado anteriormente?",
@@ -26,7 +26,7 @@
         ]
       },
       {
-        "category": "Composición de Equipos y Proyectos",
+        "categoryName": "Composición de Equipos y Proyectos",
         "questions": [
           {
             "text": "¿Cuál era la composición de los equipos en los que trabajaste?",
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "category": "Evaluación de Habilidades",
+        "categoryName": "Evaluación de Habilidades",
         "questions": [
           {
             "text": "Te voy a dar un problema para que lo resuelvas iterativamente y ver cómo piensas.",
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "category": "Microservicios",
+        "categoryName": "Microservicios",
         "questions": [
           {
             "text": "¿Qué son los microservicios?",
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "category": "Comunicación entre APIs",
+        "categoryName": "Comunicación entre APIs",
         "questions": [
           {
             "text": "¿Qué experiencia tienes con App Clients para la comunicación entre APIs, como Nswag?",
@@ -74,7 +74,7 @@
         ]
       },
       {
-        "category": "Mensajería y Colas",
+        "categoryName": "Mensajería y Colas",
         "questions": [
           {
             "text": "¿Qué sabes sobre mensajería, colas y service bus?",
@@ -91,7 +91,7 @@
         ]
       },
       {
-        "category": "Funciones y Triggers",
+        "categoryName": "Funciones y Triggers",
         "questions": [
           {
             "text": "¿Por qué usamos funciones?",
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "category": "Swagger/Postman",
+        "categoryName": "Swagger/Postman",
         "questions": [
           {
             "text": "¿Qué es Swagger/Postman? ¿Para qué se utilizan?",
@@ -117,7 +117,7 @@
         ]
       },
       {
-        "category": "Autorización",
+        "categoryName": "Autorización",
         "questions": [
           {
             "text": "¿Qué sabes sobre JWT? ¿Cuáles son sus partes y cómo se usa para probar una API?",
@@ -134,7 +134,7 @@
         ]
       },
       {
-        "category": "Base de Datos",
+        "categoryName": "Base de Datos",
         "questions": [
           {
             "text": "¿Cómo optimizas el performance de las queries?",
@@ -159,7 +159,7 @@
         ]
       },
       {
-        "category": "Patrones de Diseño",
+        "categoryName": "Patrones de Diseño",
         "questions": [
           {
             "text": "¿Qué sabes sobre los patrones Builder, Factory y Singleton?",
@@ -168,7 +168,7 @@
         ]
       },
       {
-        "category": "Principios SOLID",
+        "categoryName": "Principios SOLID",
         "questions": [
           {
             "text": "¿Puedes explicar los principios SOLID?",
@@ -177,7 +177,7 @@
         ]
       },
       {
-        "category": "Recursos de Azure",
+        "categoryName": "Recursos de Azure",
         "questions": [
           {
             "text": "¿Qué sabes sobre recursos de Azure, como Key Vault (KV) y App Configuration?",
@@ -186,7 +186,7 @@
         ]
       },
       {
-        "category": "Troubleshooting y Debugging",
+        "categoryName": "Troubleshooting y Debugging",
         "questions": [
           {
             "text": "¿Cómo realizas troubleshooting en Azure y AppInsights?",
@@ -199,7 +199,7 @@
         ]
       },
       {
-        "category": "Inyección de Dependencias",
+        "categoryName": "Inyección de Dependencias",
         "questions": [
           {
             "text": "¿Qué sabes sobre inyección de dependencias? ¿Cuáles son las diferencias entre Singleton, Transient y Scoped?",
@@ -208,7 +208,7 @@
         ]
       },
       {
-        "category": "GraphQL",
+        "categoryName": "GraphQL",
         "questions": [
           {
             "text": "¿Qué es GraphQL y para qué sirve?",
@@ -217,7 +217,7 @@
         ]
       },
       {
-        "category": "Componentes en React",
+        "categoryName": "Componentes en React",
         "questions": [
           {
             "text": "¿Puedes explicar cómo funcionan los componentes en React y cómo se utilizan los estados y las propiedades en ellos?",
@@ -226,7 +226,7 @@
         ]
       },
       {
-        "category": "Manejo de Errores",
+        "categoryName": "Manejo de Errores",
         "questions": [
           {
             "text": "¿Cómo manejas los errores en .NET y React? ¿Has utilizado algún sistema de registro de errores?",
@@ -235,7 +235,7 @@
         ]
       },
       {
-        "category": "Hooks en React",
+        "categoryName": "Hooks en React",
         "questions": [
           {
             "text": "¿Puedes explicar cómo se utilizan los hooks en React? ¿Has utilizado el patrón de diseño atómico?",
@@ -244,7 +244,7 @@
         ]
       },
       {
-        "category": "Pruebas Unitarias",
+        "categoryName": "Pruebas Unitarias",
         "questions": [
           {
             "text": "¿Has trabajado con pruebas unitarias en .NET o React? ¿Puedes hablar sobre tu experiencia con las pruebas de simulación (mocking)?",
@@ -253,7 +253,7 @@
         ]
       },
       {
-        "category": "Pipelines de CI/CD",
+        "categoryName": "Pipelines de CI/CD",
         "questions": [
           {
             "text": "¿Has trabajado con pipelines de CI/CD en .NET o React? ¿Puedes hablar sobre tu experiencia con Azure Pipelines o Jenkins?",
@@ -262,7 +262,7 @@
         ]
       },
       {
-        "category": "Gestión de Estado en React",
+        "categoryName": "Gestión de Estado en React",
         "questions": [
           {
             "text": "¿Puedes hablar sobre tu experiencia con la gestión de estado en React? ¿Has utilizado Redux o Zustand?",
